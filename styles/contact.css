@@ -71,7 +71,7 @@ p a
 	display: inline;
 	position: relative;
 	color: inherit;
-	border-bottom: solid 1px #ffa07f;
+	border-bottom: solid 1px #b68623;
 	-webkit-transition: all 200ms ease;
 	-moz-transition: all 200ms ease;
 	-ms-transition: all 200ms ease;
@@ -100,12 +100,12 @@ a, a:hover, a:visited, a:active, a:link
 p a:active
 {
 	position: relative;
-	color: #FF6347;
+	color: #b68623;
 }
 p a:hover
 {
 	color: #FFFFFF;
-	background: #ffa07f;
+	background: #b68623;
 }
 p a:hover::after
 {
@@ -145,7 +145,7 @@ h6::selection
 }
 .form-control
 {
-	color: #db5246;
+	color:#b68623;
 }
 section
 {
@@ -272,7 +272,7 @@ section
 }
 .button_1
 {
-	background: #fd556d;
+	background: #b68623;
 	border: solid 2px transparent;
 }
 .button_1 a
@@ -282,11 +282,11 @@ section
 .button_1:hover
 {
 	background: transparent;
-	border: solid 2px #fd556d;
+	border: solid 2px #b68623;
 }
 .button_1:hover a
 {
-	color: #fd556d;
+	color: #b68623;
 }
 .button_2
 {
@@ -373,7 +373,7 @@ section
 .main_nav ul li a:hover,
 .main_nav ul li.active a
 {
-	color:  #112f2a;
+	color:  #b68623;
 }
 .main_nav ul li:not(:last-child)
 {
@@ -792,8 +792,8 @@ section
 .contact_button:hover
 {
 	background: transparent;
-	border: solid 2px #fd556d;
-	color: #fd556d;
+	border: solid 2px #b68623;
+	color: #b68623;
 }
 .contact_content_title
 {
@@ -823,7 +823,7 @@ section
 	font-weight: 500;
 	line-height: 48px;
 	color: #fff;
-	background-color: #fd556d;
+	background-color: #b68623;
 	white-space: nowrap;
 }
 .direct_line_num
@@ -985,7 +985,7 @@ section
 	width: 167px;
 	height: 46px;
 	border-radius: 19px;
-	background: #fd556d;
+	background: #b68623;
 	cursor: pointer;
 	border: none;
 	outline: none;

@@ -75,7 +75,7 @@ p a
 	display: inline;
 	position: relative;
 	color: inherit;
-	border-bottom: solid 1px #ffa07f;
+	border-bottom: solid 1px #b68623;
 	-webkit-transition: all 200ms ease;
 	-moz-transition: all 200ms ease;
 	-ms-transition: all 200ms ease;
@@ -104,12 +104,12 @@ a, a:hover, a:visited, a:active, a:link
 p a:active
 {
 	position: relative;
-	color: #FF6347;
+	color: #b68623;
 }
 p a:hover
 {
 	color: #FFFFFF;
-	background: #ffa07f;
+	background: #b68623;
 }
 p a:hover::after
 {
@@ -150,7 +150,7 @@ h6::selection
 }
 .form-control
 {
-	color: #db5246;
+	color:#b68623;
 }
 section
 {
@@ -277,7 +277,7 @@ section
 }
 .button_1
 {
-	background: #fd556d;
+	background: #b68623;
 	border: solid 2px transparent;
 }
 .button_1 a
@@ -287,11 +287,11 @@ section
 .button_1:hover
 {
 	background: transparent;
-	border: solid 2px #fd556d;
+	border: solid 2px #b68623;
 }
 .button_1:hover a
 {
-	color: #fd556d;
+	color: #b68623;
 }
 .button_2
 {
@@ -378,7 +378,7 @@ section
 .main_nav ul li a:hover,
 .main_nav ul li.active a
 {
-	color:  #112f2a;
+	color:  #b68623;
 }
 .main_nav ul li:not(:last-child)
 {
@@ -860,8 +860,8 @@ section
 .intro_button:hover
 {
 	background: transparent;
-	border: solid 2px #fd556d;
-	color: #fd556d;
+	border: solid 2px #b68623;
+	color: #b68623;
 }
 
 /*********************************
@@ -895,7 +895,7 @@ section
 	width: 61px;
 	height: 61px;
 	border-radius: 50%;
-	background: #6bdbd2;
+	background: #112f2a;
 }
 .icon
 {
@@ -942,7 +942,7 @@ section
 .cta
 {
 	width: 100%;
-	background: #fd556d;
+	background: #b68623;
 	padding-top: 49px;
 	padding-bottom: 46px;
 }
@@ -971,7 +971,7 @@ section
 	font-size: 30px;
 	font-weight: 600;
 	color: #fff;
-	background: #ee4860;
+	background: #b68623;
 	border-radius: 19px;
 	white-space: nowrap;
 }
@@ -1048,7 +1048,7 @@ margin-top: -3px;
 {
 	font-size: 60px;
 	font-weight: 700;
-	color: #6bdbd2;
+	color: #112f2a;
 	line-height: 0.75;
 }
 .extra_disc > div:last-child
@@ -1156,7 +1156,7 @@ margin-top: -3px;
 	width: 167px;
 	height: 46px;
 	border-radius: 19px;
-	background: #fd556d;
+	background: #b68623;
 	cursor: pointer;
 	border: none;
 	outline: none;

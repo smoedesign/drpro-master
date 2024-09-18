@@ -73,7 +73,7 @@ p a
 	display: inline;
 	position: relative;
 	color: inherit;
-	border-bottom: solid 1px #ffa07f;
+	border-bottom: solid 1px #b68623;
 	-webkit-transition: all 200ms ease;
 	-moz-transition: all 200ms ease;
 	-ms-transition: all 200ms ease;
@@ -102,12 +102,12 @@ a, a:hover, a:visited, a:active, a:link
 p a:active
 {
 	position: relative;
-	color: #FF6347;
+	color: #b68623;
 }
 p a:hover
 {
 	color: #FFFFFF;
-	background: #ffa07f;
+	background: #b68623;
 }
 p a:hover::after
 {
@@ -148,7 +148,7 @@ h6::selection
 }
 .form-control
 {
-	color: #db5246;
+	color:#b68623;
 }
 section
 {
@@ -275,7 +275,7 @@ section
 }
 .button_1
 {
-	background: #fd556d;
+	background: #b68623;
 	border: solid 2px transparent;
 }
 .button_1 a
@@ -285,11 +285,11 @@ section
 .button_1:hover
 {
 	background: transparent;
-	border: solid 2px #fd556d;
+	border: solid 2px #b68623;
 }
 .button_1:hover a
 {
-	color: #fd556d;
+	color: #b68623;
 }
 .button_2
 {
@@ -376,7 +376,7 @@ section
 .main_nav ul li a:hover,
 .main_nav ul li.active a
 {
-	color:  #112f2a;
+	color:  #b68623;
 }
 .main_nav ul li:not(:last-child)
 {
@@ -697,7 +697,7 @@ section
 	width: 61px;
 	height: 61px;
 	border-radius: 50%;
-	background: #6bdbd2;
+	background: #112f2a;
 }
 .icon
 {
@@ -734,7 +734,7 @@ section
 }
 .cd-handle.draggable
 {
-	background-color: #fd556d;
+	background-color: #b68623;
 }
 .cd-image-container
 {
@@ -812,7 +812,7 @@ section
 	width: 145px;
 	height: 39px;
 	border-radius: 20px;
-	background-color: #fd556d;
+	background-color: #b68623;
 	font-size: 14px;
 	font-weight: 600;
 	color: #FFFFFF;
@@ -827,7 +827,7 @@ section
 .cta
 {
 	width: 100%;
-	background: #fd556d;
+	background: #b68623;
 	padding-top: 49px;
 	padding-bottom: 46px;
 }
@@ -856,7 +856,7 @@ section
 	font-size: 30px;
 	font-weight: 600;
 	color: #fff;
-	background: #ee4860;
+	background: #b68623;
 	border-radius: 19px;
 	white-space: nowrap;
 }
@@ -934,7 +934,7 @@ section
 	width: 167px;
 	height: 46px;
 	border-radius: 19px;
-	background: #fd556d;
+	background: #b68623;
 	cursor: pointer;
 	border: none;
 	outline: none;

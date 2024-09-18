@@ -77,7 +77,7 @@ p a
 	display: inline;
 	position: relative;
 	color: inherit;
-	border-bottom: solid 1px #ffa07f;
+	border-bottom: solid 1px #b68623;
 	-webkit-transition: all 200ms ease;
 	-moz-transition: all 200ms ease;
 	-ms-transition: all 200ms ease;
@@ -106,12 +106,12 @@ a, a:hover, a:visited, a:active, a:link
 p a:active
 {
 	position: relative;
-	color: #FF6347;
+	color: #b68623;
 }
 p a:hover
 {
 	color: #FFFFFF;
-	background: #ffa07f;
+	background: #b68623;
 }
 p a:hover::after
 {
@@ -278,7 +278,7 @@ section
 }
 .button_1
 {
-	background: #fd556d;
+	background: #b68623;
 	border: solid 2px transparent;
 }
 .button_1 a
@@ -288,11 +288,11 @@ section
 .button_1:hover
 {
 	background: transparent;
-	border: solid 2px #fd556d;
+	border: solid 2px #b68623;
 }
 .button_1:hover a
 {
-	color: #fd556d;
+	color: #b68623;
 }
 .button_2
 {
@@ -386,7 +386,7 @@ section
 .main_nav ul li a:hover,
 .main_nav ul li.active a
 {
-	color:  #112f2a;
+	color:  #b68623;
 }
 .main_nav ul li:not(:last-child)
 {
@@ -706,15 +706,15 @@ section
 .button_3
 {
 	background: transparent;
-	border: solid 2px #fd556d;
+	border: solid 2px #b68623;
 }
 .button_3 a
 {
-	color: #fd556d;
+	color: #b68623;
 }
 .button_3:hover
 {
-	background: #fd556d;
+	background: #b68623;
 }
 .button_3:hover a
 {
@@ -812,7 +812,7 @@ section
 }
 .accordion.active
 {
-	background: #fd556d;
+	background: #b68623;
 	color: #FFFFFF;
 }
 .accordion.active::after
@@ -878,7 +878,7 @@ section
 }
 .tab.active
 {
-	background: #fd556d;
+	background: #b68623;
 }
 .tab_panels
 {
@@ -1012,6 +1012,8 @@ section
 {
 	width: 100%;
 }
+
+/*#57ccc3*/ /*color*/
 .milestone_content
 {
 	padding-left: 20px;
@@ -1067,7 +1069,7 @@ section
 	width: 61px;
 	height: 61px;
 	border-radius: 50%;
-	background: #6bdbd2;
+	background: #112f2a;
 }
 .icon
 {
@@ -1152,7 +1154,7 @@ section
 	width: 167px;
 	height: 46px;
 	border-radius: 19px;
-	background: #fd556d;
+	background: #b68623;
 	cursor: pointer;
 	border: none;
 	outline: none;
