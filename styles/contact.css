@@ -21,7 +21,6 @@
 1. Fonts
 ***********/
 
-@import url('https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700,800,900');
 
 /*********************************
 2. Body and some general stuff
@@ -37,7 +36,7 @@
 }
 body
 {
-    font-family: "Font Awesome 5 Free";
+	font-family: 'Roboto', sans-serif;
 	font-size: 14px;
 	font-weight: 400;
 	background: #FFFFFF;
@@ -58,7 +57,7 @@ ul
 }
 p
 {
-    font-family: "Font Awesome 5 Free";
+	font-family: 'Roboto', sans-serif;
 	font-size: 14px;
 	line-height: 2.14;
 	font-weight: 500;
@@ -128,7 +127,7 @@ h4{font-size: 24px;}
 h5{font-size: 18px;}
 h1, h2, h3, h4, h5, h6
 {
-    font-family: "Font Awesome 5 Free";
+	font-family: 'Poppins', sans-serif;
 	-webkit-font-smoothing: antialiased;
 	-webkit-text-shadow: rgba(0,0,0,.01) 0 0 1px;
 	text-shadow: rgba(0,0,0,.01) 0 0 1px;
