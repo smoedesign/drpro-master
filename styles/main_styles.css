@@ -296,15 +296,15 @@ section
 .button_2
 {
 	background: transparent;
-	border: solid 2px #57ccc3;
+	border: solid 2px  #112f2a;
 }
 .button_2 a
 {
-	color: #57ccc3;
+	color:  #112f2a;
 }
 .button_2:hover
 {
-	background: #57ccc3;
+	background:  #112f2a;
 }
 .button_2:hover a
 {
@@ -360,7 +360,7 @@ section
 }
 .logo a > div > span
 {
-	color: #57ccc3;
+	color:  #112f2a;
 	margin-left: 7px;
 }
 
@@ -378,7 +378,7 @@ section
 .main_nav ul li a:hover,
 .main_nav ul li.active a
 {
-	color: #57ccc3;
+	color:  #112f2a;
 }
 .main_nav ul li:not(:last-child)
 {
@@ -396,7 +396,7 @@ section
 {
 	height: 46px;
 	border-radius: 20px;
-	background: #57ccc3;
+	background:  #112f2a;
 	padding-left: 40px;
 	padding-right: 36px;
 	line-height: 46px;
@@ -427,7 +427,7 @@ section
 }
 .social ul li:hover
 {
-	background: #57ccc3;
+	background:  #112f2a;
 }
 .social ul li:hover a i
 {
@@ -492,7 +492,7 @@ section
 	right: -350px;
 	width: 350px;
 	height: 100vh;
-	background: #57ccc3;
+	background:  #112f2a;
 	z-index: 102;
 	padding-left: 30px;
 	padding-right: 30px;
@@ -652,7 +652,7 @@ section
 .home_subtitle
 {
 	font-size: 24px;
-	color: #57ccc3;
+	color:  #112f2a;
 	font-weight: 600;
 	line-height: 1.1;
 }
@@ -694,7 +694,7 @@ section
 .home_slider_custom_dot.active,
 .home_slider_custom_dot:hover
 {
-	background: #57ccc3;
+	background:  #112f2a;
 }
 .home_slider_custom_dot:not(:last-child)
 {
@@ -724,7 +724,7 @@ section
 {
 	font-size: 36px;
 	font-weight: 700;
-	color: #57ccc3;
+	color:  #112f2a;
 	line-height: 0.75;
 }
 .milestone_text
@@ -752,7 +752,7 @@ section
 	left: 0;
 	width: 336px;
 	height: 80px;
-	background: #57ccc3;
+	background:  #112f2a;
 	line-height: 80px;
 	text-align: center;
 	font-size: 24px;
@@ -810,7 +810,7 @@ section
 .intro_input:focus,
 .intro_input:hover
 {
-	border: solid 2px #57ccc3;
+	border: solid 2px  #112f2a;
 }
 .intro_input::-webkit-input-placeholder
 {
@@ -1246,7 +1246,7 @@ margin-top: -3px;
 {
 	font-size: 15px;
 	font-weight: 500;
-	color: #57ccc3;
+	color:  #112f2a;
 }
 .location_text
 {
@@ -1301,5 +1301,5 @@ margin-top: -3px;
 }
 .footer_nav ul li a:hover
 {
-	color: #57ccc3;
+	color:  #112f2a;
 }

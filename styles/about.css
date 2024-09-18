@@ -116,7 +116,7 @@ p a:hover::after
 }
 ::selection
 {
-	background: rgba(87,204,195,0.75);
+	background:  #112f2a;
 	color: #FFFFFF;
 }
 
@@ -291,15 +291,15 @@ section
 .button_2
 {
 	background: transparent;
-	border: solid 2px #57ccc3;
+	border: solid 2px  #112f2a;
 }
 .button_2 a
 {
-	color: #57ccc3;
+	color:  #112f2a;
 }
 .button_2:hover
 {
-	background: #57ccc3;
+	background:  #112f2a;
 }
 .button_2:hover a
 {
@@ -355,7 +355,7 @@ section
 }
 .logo a > div > span
 {
-	color: #57ccc3;
+	color:  #112f2a;
 	margin-left: 7px;
 }
 
@@ -373,7 +373,7 @@ section
 .main_nav ul li a:hover,
 .main_nav ul li.active a
 {
-	color: #57ccc3;
+	color:  #112f2a;
 }
 .main_nav ul li:not(:last-child)
 {
@@ -391,7 +391,7 @@ section
 {
 	height: 46px;
 	border-radius: 20px;
-	background: #57ccc3;
+	background:  #112f2a;
 	padding-left: 40px;
 	padding-right: 36px;
 	line-height: 46px;
@@ -422,7 +422,7 @@ section
 }
 .social ul li:hover
 {
-	background: #57ccc3;
+	background:  #112f2a;
 }
 .social ul li:hover a i
 {
@@ -487,7 +487,7 @@ section
 	right: -350px;
 	width: 350px;
 	height: 100vh;
-	background: #57ccc3;
+	background:  #112f2a;
 	z-index: 102;
 	padding-left: 30px;
 	padding-right: 30px;
@@ -705,7 +705,7 @@ section
 {
 	font-size: 36px;
 	font-weight: 700;
-	color: #57ccc3;
+	color:  #112f2a;
 	line-height: 0.75;
 }
 .milestone_text
@@ -736,7 +736,7 @@ section
 	width: 60px;
 	height: 60px;
 	border-radius: 50%;
-	background: #57ccc3;
+	background:  #112f2a;
 }
 .test_slider_container
 {
@@ -774,7 +774,7 @@ section
 }
 .test_text span
 {
-	color: #57ccc3;
+	color:  #112f2a;
 }
 .test_slider.owl-theme .owl-nav.disabled + .owl-dots
 {
@@ -869,7 +869,7 @@ section
 {
 	font-size: 14px;
 	font-weight: 600;
-	color: #57ccc3;
+	color:  #112f2a;
 	margin-top: 3px;
 }
 .team_text
@@ -1040,7 +1040,7 @@ section
 {
 	font-size: 15px;
 	font-weight: 500;
-	color: #57ccc3;
+	color:  #112f2a;
 }
 .location_text
 {
@@ -1095,5 +1095,5 @@ section
 }
 .footer_nav ul li a:hover
 {
-	color: #57ccc3;
+	color:  #112f2a;
 }

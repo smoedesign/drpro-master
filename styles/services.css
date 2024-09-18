@@ -294,15 +294,15 @@ section
 .button_2
 {
 	background: transparent;
-	border: solid 2px #57ccc3;
+	border: solid 2px  #112f2a;
 }
 .button_2 a
 {
-	color: #57ccc3;
+	color:  #112f2a;
 }
 .button_2:hover
 {
-	background: #57ccc3;
+	background:  #112f2a;
 }
 .button_2:hover a
 {
@@ -358,7 +358,7 @@ section
 }
 .logo a > div:first-child span
 {
-	color: #57ccc3;
+	color:  #112f2a;
 	margin-left: 7px;
 }
 
@@ -376,7 +376,7 @@ section
 .main_nav ul li a:hover,
 .main_nav ul li.active a
 {
-	color: #57ccc3;
+	color:  #112f2a;
 }
 .main_nav ul li:not(:last-child)
 {
@@ -394,7 +394,7 @@ section
 {
 	height: 46px;
 	border-radius: 20px;
-	background: #57ccc3;
+	background:  #112f2a;
 	padding-left: 40px;
 	padding-right: 36px;
 	line-height: 46px;
@@ -425,7 +425,7 @@ section
 }
 .social ul li:hover
 {
-	background: #57ccc3;
+	background:  #112f2a;
 }
 .social ul li:hover a i
 {
@@ -490,7 +490,7 @@ section
 	right: -350px;
 	width: 350px;
 	height: 100vh;
-	background: #57ccc3;
+	background:  #112f2a;
 	z-index: 102;
 	padding-left: 30px;
 	padding-right: 30px;
@@ -729,7 +729,7 @@ section
 	width: 60px !important;
 	margin-left: -30px !important;
 	margin-top: -30px !important;
-	background: #57ccc3 url("../images/arrows.png") no-repeat center center;
+	background:  #112f2a url("../images/arrows.png") no-repeat center center;
 	box-shadow: none !important;
 }
 .cd-handle.draggable
@@ -791,7 +791,7 @@ section
 	padding-top: 36px;
 	padding-bottom: 30px;
 	padding-right: 50px;
-	border-left: solid 3px #57ccc3;
+	border-left: solid 3px  #112f2a;
 }
 .price_title
 {
@@ -1024,7 +1024,7 @@ section
 {
 	font-size: 15px;
 	font-weight: 500;
-	color: #57ccc3;
+	color:  #112f2a;
 }
 .location_text
 {
@@ -1079,5 +1079,5 @@ section
 }
 .footer_nav ul li a:hover
 {
-	color: #57ccc3;
+	color:  #112f2a;
 }
