@@ -279,6 +279,7 @@ section
 	border: solid 2px transparent;
 	letter-spacing: 2px;
 }
+
 .button_1 a
 {
 	color: #FFFFFF;
@@ -694,20 +695,22 @@ section
 	font-weight: 400;
 }
 .icon_container
+
 {
-	width: 61px;
-	height: 61px;
+	width: 150px;
+	height:150px;
 	border-radius: 50%;
-	background: #112f2a;
+
 }
 .icon
 {
-	width: 32px;
-	height: 32px;
+	width: 100%;
+	height: 100%;
 }
 .icon img
 {
 	max-width: 100%;
+	border-radius: 50%;
 }
 
 /*********************************
