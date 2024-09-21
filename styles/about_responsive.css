@@ -106,7 +106,7 @@
 	}
 	.test_slider_dots
 	{
-		left: calc((100vw - 930px) / 2);
+		left: 	 35%;;
 	}
 }
 
@@ -141,7 +141,7 @@
 	}
 	.test_slider_dots
 	{
-		left: calc((100vw - 690px) / 2);
+		left: 35%;
 	}
 	.hamburger
 	{
@@ -225,7 +225,7 @@
 	{
 		font-size: 48px;
 	}
-	.intro_text p
+	.intro_text  .about_us_text
 	{
 		-webkit-column-count: 1;
 		-moz-column-count: 1;
@@ -250,7 +250,7 @@
 	}
 	.test_slider_dots
 	{
-		left: calc((100vw - 510px) / 2);
+		left: 35%;
 	}
 	.footer_nav
 	{
