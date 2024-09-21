@@ -279,6 +279,8 @@ section
 {
 	background: #b68623;
 	border: solid 2px transparent;
+	letter-spacing: 2px;
+
 }
 .button_1 a
 {
@@ -360,7 +362,7 @@ section
 }
 .logo a > div > span
 {
-	color:  #112f2a;
+	color:  #b68623;
 	margin-left: 7px;
 }
 
@@ -893,18 +895,37 @@ section
 .icon_container
 {
 	width: 61px;
-	height: 61px;
+	height:61px;
 	border-radius: 50%;
-	background: #112f2a;
+	background-color: #112f2a;
+}
+.ICON_SERVICES
+{
+	width: 100px;
+	height:100px;
+	border-radius: 50%;
 }
 .icon
 {
 	width: 32px;
 	height: 32px;
 }
+.icon_service
+{
+	width: 100px;
+	height:100px;
+}
+.icon_service img
+{
+	max-width: 100%;
+	border-radius: 50%;
+
+}
 .icon img
 {
 	max-width: 100%;
+	border-radius: 50%;
+
 }
 .why_list_content
 {
@@ -1246,7 +1267,7 @@ margin-top: -3px;
 {
 	font-size: 15px;
 	font-weight: 500;
-	color:  #112f2a;
+	color:  #b68623;
 }
 .location_text
 {

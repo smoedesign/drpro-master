@@ -275,6 +275,8 @@ section
 {
 	background: #b68623;
 	border: solid 2px transparent;
+	letter-spacing: 2px;
+
 }
 .button_1 a
 {
@@ -969,7 +971,7 @@ section
 {
 	font-size: 15px;
 	font-weight: 500;
-	color:  #112f2a;
+	color:  #b68623;
 }
 .location_text
 {

@@ -258,14 +258,11 @@
 	{
 		font-size: 13px;
 	}
-	.logo a > div:first-child
+	.logo a > div
 	{
 		font-size: 24px;
 	}
-	.logo a > div:last-child
-	{
-		font-size: 10px;
-	}
+
 	.section_subtitle
 	{
 		font-size: 16px;

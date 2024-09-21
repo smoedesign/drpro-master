@@ -280,6 +280,8 @@ section
 {
 	background: #b68623;
 	border: solid 2px transparent;
+	letter-spacing: 2px;
+
 }
 .button_1 a
 {
@@ -1069,7 +1071,7 @@ section
 	width: 61px;
 	height: 61px;
 	border-radius: 50%;
-	background: #112f2a;
+	/* background: #112f2a; */
 }
 .icon
 {
@@ -1244,7 +1246,7 @@ section
 {
 	font-size: 15px;
 	font-weight: 500;
-	color:  #112f2a;
+	color:  #b68623;
 }
 .location_text
 {

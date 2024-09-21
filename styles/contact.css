@@ -274,6 +274,8 @@ section
 {
 	background: #b68623;
 	border: solid 2px transparent;
+	letter-spacing: 2px;
+
 }
 .button_1 a
 {
@@ -353,9 +355,9 @@ section
 	line-height: 0.75;
 	color: #353535;
 }
-.logo a > div:first-child span
+.logo a > div > span
 {
-	color:  #112f2a;
+	color:  #b68623;
 	margin-left: 7px;
 }
 
@@ -1075,7 +1077,7 @@ section
 {
 	font-size: 15px;
 	font-weight: 500;
-	color:  #112f2a;
+	color:  #b68623;
 }
 .location_text
 {
