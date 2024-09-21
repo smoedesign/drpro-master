@@ -897,18 +897,18 @@ section
 	width: 61px;
 	height:61px;
 	border-radius: 50%;
-	background-color: #112f2a;
 }
-.ICON_SERVICES
+/* .ICON_SERVICES
 {
 	width: 100px;
 	height:100px;
 	border-radius: 50%;
-}
+} */
 .icon
 {
-	width: 32px;
-	height: 32px;
+	width: 45px;
+	height: 45%;
+
 }
 .icon_service
 {
@@ -924,7 +924,6 @@ section
 .icon img
 {
 	max-width: 100%;
-	border-radius: 50%;
 
 }
 .why_list_content
