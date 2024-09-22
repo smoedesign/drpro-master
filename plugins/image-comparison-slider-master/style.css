@@ -25,14 +25,19 @@ img {
   max-width: 100%;
 }
 
+
 .cd-image-container {
   position: relative;
   width: 90%;
   max-width: 768px;
   margin: 0em auto;
+
 }
 .cd-image-container img {
   display: block;
+
+  
+
 }
 
 .cd-image-label {

@@ -308,10 +308,11 @@ section
   }
   .filter-bottons{
 margin-bottom: 70px;
-width: 100%;	
+width: 85%;	
 display: flex;
 justify-content: center;
 align-items: center;
+flex-wrap: wrap;
 gap:1rem;
 
   }
