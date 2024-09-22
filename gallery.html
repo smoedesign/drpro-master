@@ -1,0 +1,743 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Blog</title>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" type="text/css" href="styles/bootstrap-4.1.2/bootstrap.min.css">
+<link href="plugins/font-awesome-4.7.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+<link rel="stylesheet" type="text/css" href="styles/blog.css">
+<link rel="stylesheet" type="text/css" href="styles/blog_responsive.css">
+</head>
+<body>
+
+<div class="super_container">
+	
+	<!-- Header -->
+	<header class="header trans_400 ">
+		<div class="header_content d-flex flex-row align-items-center jusity-content-start">
+
+			<!-- Logo -->
+			<div class="logo">
+				<a href="index.html">
+					<div>Miray<span>Clinic</span></div>
+				</a>
+			</div>
+
+			<!-- Main Navigation -->
+			<nav class="main_nav">
+				<ul class="d-flex flex-row align-items-center justify-content-start">
+					<li ><a href="index.html">Home</a></li>
+					<li><a href="about.html">About us</a></li>
+					<li ><a href="services.html">Services</a></li>
+					<li class="active"><a href="gallery.html">Gallery </a></li>
+
+					<li><a href="contact.html">Contact</a></li>
+				</ul>
+			</nav>
+			<div class="header_extra d-flex flex-row align-items-center justify-content-end ml-auto">
+				
+				<!-- Work Hourse -->
+
+				<!-- Header Phone -->
+				<div class="header_phone">+90 543 181 65 60</div>
+
+				<!-- Appointment Button -->
+				<div class="button button_1 header_button"><a href="http://wa.me/905431816560">Enquire on WhatsApp</a></div>
+
+				<!-- Header Social -->
+				<div class="social header_social">
+					<ul class="d-flex flex-row align-items-center justify-content-start">
+						<li><a href="https://www.instagram.com/mirayclinic.tr?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+				<li><a href="https://www.facebook.com/mirayclinic.tr"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+				<li><a href="https://www.tiktok.com/@mirayclinic.tr?_t=8ppZ4OjIvxQ&_r=1"><i class="fa-brands fa-tiktok" aria-hidden="true"></i></a></li>
+		</ul>
+				</div>
+
+				<!-- Hamburger -->
+				<div class="hamburger"><i class="fa fa-bars" aria-hidden="true"></i></div>
+			</div>
+		</div>
+	</header>
+
+	<!-- Menu -->
+
+	<div class="menu_overlay trans_400"></div>
+	<div class="menu trans_400">
+		<div class="menu_close_container"><div class="menu_close"><div></div><div></div></div></div>
+		<nav class="menu_nav">
+			<ul>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="about.html">About us</a></li>
+				<li><a href="services.html">Services</a></li>
+				<li class="active"><a href="gallery.html">Gallery </a></li>
+				<li><a href="contact.html">Contact</a></li>
+			</ul>
+		</nav>
+		<div class="menu_extra">
+			<div class="menu_link">+90 543 181 65 60</div>
+			<div class="menu_link"><a href="http://wa.me/905431816560">Enquire on WhatsApp</a></div>
+		</div>
+		<div class="social menu_social">
+			<ul class="d-flex flex-row align-items-center justify-content-start">
+				<li><a href="https://www.instagram.com/mirayclinic.tr?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+				<li><a href="https://www.facebook.com/mirayclinic.tr"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+				<li><a href="https://www.tiktok.com/@mirayclinic.tr?_t=8ppZ4OjIvxQ&_r=1"><i class="fa-brands fa-tiktok" aria-hidden="true"></i></a></li>
+
+			</ul>
+		</div>
+	</div>
+
+
+	<div class="container gallery_container ">
+		<div class="row justify-content-center align-items-center">
+		  <!-- Filter Buttons -->
+		  <div class="filter-bottons">
+			<button class="button button_1  gallery_btn" data-filter="all">All</button>
+			<button class="button button_1  gallery_btn" data-filter="Hollywood-Smile">Hollywood Smile</button>
+			<button class="button button_1  gallery_btn" data-filter="Rhinoplasty"> Rhinoplasty</button>
+			<button class="button button_1  gallery_btn" data-filter="Face-Lift-Neck-Lift">Face Lift Neck Lift	</button>
+			<button class="button button_1  gallery_btn" data-filter="hair-transplant">Hair transplant	</button>
+		  </div>
+		  <!-- Gallery Items -->
+		  <div class="col-12 ">
+			<div class="gallery">
+			  <div class="gallery-item" data-service="Hollywood-Smile">
+				<a href="#" data-toggle="modal" data-target="#modal-1">
+				  <img src="https://res.cloudinary.com/dudyrfpl0/image/upload/v1727004422/Before%20and%20after/roiotjyvogi5okvkbdzq.jpg" alt="Hollywood Smile" class="img-fluid">
+				</a>
+				<p>Hollywood Smile</p>
+			  </div>
+			  <div class="gallery-item" data-service="Rhinoplasty">
+				<a href="#" data-toggle="modal" data-target="#modal-2">
+				  <img src="https://res.cloudinary.com/dudyrfpl0/image/upload/v1727003775/Before%20and%20after/Face%20lift%20neck%20lift/vjivcvd9odoj2v6ndavh.jpg" alt="Rhinoplasty" class="img-fluid">
+				</a>
+				<p>Rhinoplasty</p>
+			  </div>
+			  <div class="gallery-item" data-service="Hollywood-Smile">
+				<a href="#" data-toggle="modal" data-target="#modal-6">
+				  <img src="https://res.cloudinary.com/dudyrfpl0/image/upload/v1727000943/Before%20and%20after/d3z0xv9igkgpf2dr4fzq.jpg" alt="Hollywood Smile" class="img-fluid">
+				</a>
+				<p>Hollywood Smile</p>
+			  </div>
+			  <div class="gallery-item" data-service="Face-Lift-Neck-Lift">
+				<a href="#" data-toggle="modal" data-target="#modal-3">
+				  <img src="https://res.cloudinary.com/dudyrfpl0/image/upload/v1727003029/Before%20and%20after/Face%20lift%20neck%20lift/iczbttf0poqlhiyueyfd.jpg" alt=" Face Lift Neck Lift	" class="img-fluid">
+				</a>
+				<p> Face Lift Neck Lift	</p>
+			  </div>
+			  
+			  <div class="gallery-item" data-service="hair-transplant">
+				<a href="#" data-toggle="modal" data-target="#modal-4">
+				  <img src="https://res.cloudinary.com/dudyrfpl0/image/upload/v1727003297/Before%20and%20after/Hair%20transplant/tjl1511cptrjhkga1vg8.jpg" alt=" Hairtransplant	" class="img-fluid">
+				</a>
+				<p> Hair transplant	</p>
+			  </div>
+			  <div class="gallery-item" data-service="Hollywood-Smile">
+				<a href="#" data-toggle="modal" data-target="#modal-5">
+				  <img src="https://res.cloudinary.com/dudyrfpl0/image/upload/v1727000974/Before%20and%20after/pkpotc7avyn0mfp0j68v.png" alt="Hollywood Smile" class="img-fluid">
+				</a>
+				<p>Hollywood Smile</p>
+			  </div>
+			  <div class="gallery-item" data-service="Face-Lift-Neck-Lift">
+				<a href="#" data-toggle="modal" data-target="#modal-7">
+				  <img src="https://res.cloudinary.com/dudyrfpl0/image/upload/v1727003044/Before%20and%20after/Face%20lift%20neck%20lift/hubsxlaydxgorrmktesw.jpg" alt=" Face Lift Neck Lift	" class="img-fluid">
+				</a>
+				<p> Face Lift Neck Lift	</p>
+			  </div>
+			  <div class="gallery-item" data-service="Face-Lift-Neck-Lift">
+				<a href="#" data-toggle="modal" data-target="#modal-8">
+				  <img src="https://res.cloudinary.com/dudyrfpl0/image/upload/v1727003030/Before%20and%20after/Face%20lift%20neck%20lift/rdmnaws11iib0g2hbavm.jpg" alt=" Face Lift Neck Lift	" class="img-fluid">
+				</a>
+				<p> Face Lift Neck Lift	</p>
+			  </div>
+			  <div class="gallery-item" data-service="Face-Lift-Neck-Lift">
+				<a href="#" data-toggle="modal" data-target="#modal-9">
+				  <img src="https://res.cloudinary.com/dudyrfpl0/image/upload/v1727003025/Before%20and%20after/Face%20lift%20neck%20lift/bwvpobgtouh0r9cljve5.jpg" alt=" Face Lift Neck Lift	" class="img-fluid">
+				</a>
+				<p> Face Lift Neck Lift	</p>
+			  </div>
+			  <div class="gallery-item" data-service="Face-Lift-Neck-Lift">
+				<a href="#" data-toggle="modal" data-target="#modal-10">
+				  <img src="https://res.cloudinary.com/dudyrfpl0/image/upload/v1727003024/Before%20and%20after/Face%20lift%20neck%20lift/v0ztteayv8xv9sxfklka.jpg" alt=" Face Lift Neck Lift	" class="img-fluid">
+				</a>
+				<p> Face Lift Neck Lift	</p>
+			  </div>
+			  <div class="gallery-item" data-service="Face-Lift-Neck-Lift">
+				<a href="#" data-toggle="modal" data-target="#modal-11">
+				  <img src="https://res.cloudinary.com/dudyrfpl0/image/upload/v1727003023/Before%20and%20after/Face%20lift%20neck%20lift/bz1wdxnctqzuio1xgsx5.jpg" alt=" Face Lift Neck Lift	" class="img-fluid">
+				</a>
+				<p> Face Lift Neck Lift	</p>
+			  </div>
+			  <div class="gallery-item" data-service="Face-Lift-Neck-Lift">
+				<a href="#" data-toggle="modal" data-target="#modal-12">
+				  <img src="https://res.cloudinary.com/dudyrfpl0/image/upload/v1727003027/Before%20and%20after/Face%20lift%20neck%20lift/uzx6fjq1fksvbzhceckw.jpg" alt=" Face Lift Neck Lift	" class="img-fluid">
+				</a>
+				<p> Face Lift Neck Lift	</p>
+			  </div>
+			  <div class="gallery-item" data-service="Face-Lift-Neck-Lift">
+				<a href="#" data-toggle="modal" data-target="#modal-13">
+				  <img src="https://res.cloudinary.com/dudyrfpl0/image/upload/v1727003024/Before%20and%20after/Face%20lift%20neck%20lift/eq5jpgltmdmno3bl68a1.jpg" alt=" Face Lift Neck Lift	" class="img-fluid">
+				</a>
+				<p> Face Lift Neck Lift	</p>
+			  </div>
+			  <div class="gallery-item" data-service="Face-Lift-Neck-Lift">
+				<a href="#" data-toggle="modal" data-target="#modal-14">
+				  <img src="https://res.cloudinary.com/dudyrfpl0/image/upload/v1727003042/Before%20and%20after/Face%20lift%20neck%20lift/ymgdhwn56j3a9wlgppaa.jpg" alt=" Face Lift Neck Lift	" class="img-fluid">
+				</a>
+				<p> Face Lift Neck Lift	</p>
+			  </div>
+			  
+			  <div class="gallery-item" data-service="Face-Lift-Neck-Lift">
+				<a href="#" data-toggle="modal" data-target="#modal-15">
+<video  controls>
+  <source src="https://res.cloudinary.com/dudyrfpl0/video/upload/v1727003794/Before%20and%20after/Face%20lift%20neck%20lift/inq7xeatjydot8okfioa.mp4" type="video/mp4">
+</video>
+				</a>
+				<p> Face Lift Neck Lift	</p>
+			  </div>
+			  <div class="gallery-item" data-service="Face-Lift-Neck-Lift">
+				<a href="#" data-toggle="modal" data-target="#modal-17" >
+<video  controls>
+  <source src="https://res.cloudinary.com/dudyrfpl0/video/upload/v1727003036/Before%20and%20after/Face%20lift%20neck%20lift/apymqvbus88afb00mao4.mp4" type="video/mp4">
+</video>
+				</a>
+				<p> Natural lip filter	</p>
+			  </div>
+			  <div class="gallery-item" data-service="Face-Lift-Neck-Lift">
+				<a href="#" data-toggle="modal" data-target="#modal-18" >
+<video  controls>
+  <source src="https://res.cloudinary.com/dudyrfpl0/video/upload/v1727003032/Before%20and%20after/Face%20lift%20neck%20lift/zr2dsgdas5dhcotzjgnj.mp4" type="video/mp4">
+</video>
+				</a>
+				<p> Face Lift Neck Lift	</p>
+			  </div>
+			  <div class="gallery-item" data-service="Face-Lift-Neck-Lift">
+				<a href="#" data-toggle="modal"  data-target="#modal-19" >
+<video  controls>
+  <source src="https://res.cloudinary.com/dudyrfpl0/video/upload/v1727003039/Before%20and%20after/Face%20lift%20neck%20lift/e3pdi1ran802grsi9eg9.mp4" type="video/mp4">
+</video>
+				</a>
+				<p> Face Lift Neck Lift	</p>
+			  </div>
+			  <div class="gallery-item" data-service="Face-Lift-Neck-Lift">
+				<a href="#" data-toggle="modal"  data-target="#modal-16" >
+<video  controls>
+  <source src="https://res.cloudinary.com/dudyrfpl0/video/upload/v1727003028/Before%20and%20after/Face%20lift%20neck%20lift/dxmz5wwxqv4owkpxqri6.mp4" type="video/mp4">
+</video>
+				</a>
+				<p> Face Lift Neck Lift	</p>
+			  </div>
+			
+			  <div class="gallery-item" data-service="Face-Lift-Neck-Lift">
+				<a href="#" data-toggle="modal"  data-target="#modal-20" >
+<video  controls>
+  <source src="https://res.cloudinary.com/dudyrfpl0/video/upload/v1727003044/Before%20and%20after/Face%20lift%20neck%20lift/pazptxf7t4q1umu2andc.mp4" type="video/mp4">
+</video>
+				</a>
+				<p> Face Lift Neck Lift	</p>
+			  </div>
+			  <div class="gallery-item" data-service="Face-Lift-Neck-Lift">
+				<a href="#" data-toggle="modal"  data-target="#modal-21" >
+<video  controls>
+  <source src="https://res.cloudinary.com/dudyrfpl0/video/upload/v1727003041/Before%20and%20after/Face%20lift%20neck%20lift/fz8gubbee1cghv8x9eu1.mp4" type="video/mp4">
+</video>
+				</a>
+				<p> Face Lift Neck Lift	</p>
+			  </div>
+			
+			</div>
+		  </div>
+		</div>
+	  
+		<!-- Modal for expanded image -->
+		<div class="modal fade" id="modal-1" tabindex="-1" role="dialog" aria-labelledby="modal-1-label" aria-hidden="true">
+		  <div class="modal-dialog modal-lg" role="document">
+			<div class="modal-content">
+			  <div class="modal-header">
+				<h5 class="modal-title" id="modal-1-label">Hollywood Smile</h5>
+				<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+				  <span aria-hidden="true">&times;</span>
+				</button>
+			  </div>
+			  <div class="modal-body">
+				<img src="https://res.cloudinary.com/dudyrfpl0/image/upload/v1727004422/Before%20and%20after/roiotjyvogi5okvkbdzq.jpg" alt="Hollywood Smile
+" class="img-fluid">
+			  </div>
+			</div>
+		  </div>
+		</div>
+		<div class="modal fade" id="modal-2" tabindex="-1" role="dialog" aria-labelledby="modal-2-label" aria-hidden="true">
+		  <div class="modal-dialog modal-lg" role="document">
+			<div class="modal-content">
+			  <div class="modal-header">
+				<h5 class="modal-title" id="modal-2-label"> Rhinoplasty</h5>
+				<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+				  <span aria-hidden="true">&times;</span>
+				</button>
+			  </div>
+			  <div class="modal-body">
+				<img src="https://res.cloudinary.com/dudyrfpl0/image/upload/v1727003775/Before%20and%20after/Face%20lift%20neck%20lift/vjivcvd9odoj2v6ndavh.jpg" alt="Rhinoplasty" class="img-fluid">
+
+			  </div>
+			</div>
+		  </div>
+		</div>
+		<div class="modal fade" id="modal-3" tabindex="-1" role="dialog" aria-labelledby="modal-3-label" aria-hidden="true">
+		  <div class="modal-dialog modal-lg" role="document">
+			<div class="modal-content">
+			  <div class="modal-header">
+				<h5 class="modal-title" id="modal-3-label"> Face Lift Neck Lift</h5>
+				<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+				  <span aria-hidden="true">&times;</span>
+				</button>
+			  </div>
+			  <div class="modal-body">
+				<img src="https://res.cloudinary.com/dudyrfpl0/image/upload/v1727003029/Before%20and%20after/Face%20lift%20neck%20lift/iczbttf0poqlhiyueyfd.jpg" alt=" Face Lift Neck Lift	" class="img-fluid">
+
+			  </div>
+			</div>
+		  </div>
+		</div>
+		<div class="modal fade" id="modal-4" tabindex="-1" role="dialog" aria-labelledby="modal-4-label" aria-hidden="true">
+		  <div class="modal-dialog modal-lg" role="document">
+			<div class="modal-content">
+			  <div class="modal-header">
+				<h5 class="modal-title" id="modal-4-label"> Hair transplant</h5>
+				<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+				  <span aria-hidden="true">&times;</span>
+				</button>
+			  </div>
+			  <div class="modal-body">
+				<img src="https://res.cloudinary.com/dudyrfpl0/image/upload/v1727003297/Before%20and%20after/Hair%20transplant/tjl1511cptrjhkga1vg8.jpg" alt=" hair transplant	" class="img-fluid">
+
+			  </div>
+			</div>
+		  </div>
+		</div>
+	  
+		<div class="modal fade" id="modal-5" tabindex="-1" role="dialog" aria-labelledby="modal-5-label" aria-hidden="true">
+			<div class="modal-dialog modal-lg" role="document">
+			  <div class="modal-content">
+				<div class="modal-header">
+				  <h5 class="modal-title" id="modal-5-label">Hollywood Smile</h5>
+				  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+					<span aria-hidden="true">&times;</span>
+				  </button>
+				</div>
+				<div class="modal-body">
+				  <img src="https://res.cloudinary.com/dudyrfpl0/image/upload/v1727000974/Before%20and%20after/pkpotc7avyn0mfp0j68v.png" alt="Hollywood Smile
+  " class="img-fluid">
+				</div>
+			  </div>
+			</div>
+		  </div>
+		<div class="modal fade" id="modal-6" tabindex="-1" role="dialog" aria-labelledby="modal-6-label" aria-hidden="true">
+			<div class="modal-dialog modal-lg" role="document">
+			  <div class="modal-content">
+				<div class="modal-header">
+				  <h5 class="modal-title" id="modal-6-label">Hollywood Smile</h5>
+				  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+					<span aria-hidden="true">&times;</span>
+				  </button>
+				</div>
+				<div class="modal-body">
+				  <img src="https://res.cloudinary.com/dudyrfpl0/image/upload/v1727000943/Before%20and%20after/d3z0xv9igkgpf2dr4fzq.jpg" alt="Hollywood Smile
+  " class="img-fluid">
+				</div>
+			  </div>
+			</div>
+		  </div>
+		<div class="modal fade" id="modal-7" tabindex="-1" role="dialog" aria-labelledby="modal-7-label" aria-hidden="true">
+			<div class="modal-dialog modal-lg" role="document">
+			  <div class="modal-content">
+				<div class="modal-header">
+				  <h5 class="modal-title" id="modal-7-label">Face Lift Neck Lift</h5>
+				  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+					<span aria-hidden="true">&times;</span>
+				  </button>
+				</div>
+				<div class="modal-body">
+				  <img src="https://res.cloudinary.com/dudyrfpl0/image/upload/v1727003044/Before%20and%20after/Face%20lift%20neck%20lift/hubsxlaydxgorrmktesw.jpg" alt="Face Lift Neck Lift
+  " class="img-fluid">
+				</div>
+			  </div>
+			</div>
+		  </div>
+		<div class="modal fade" id="modal-8" tabindex="-1" role="dialog" aria-labelledby="modal-8-label" aria-hidden="true">
+			<div class="modal-dialog modal-lg" role="document">
+			  <div class="modal-content">
+				<div class="modal-header">
+				  <h5 class="modal-title" id="modal-8-label">Face Lift Neck Lift</h5>
+				  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+					<span aria-hidden="true">&times;</span>
+				  </button>
+				</div>
+				<div class="modal-body">
+				  <img src="https://res.cloudinary.com/dudyrfpl0/image/upload/v1727003030/Before%20and%20after/Face%20lift%20neck%20lift/rdmnaws11iib0g2hbavm.jpg" alt="Face Lift Neck Lift
+  " class="img-fluid">
+				</div>
+			  </div>
+			</div>
+		  </div>
+		<div class="modal fade" id="modal-9" tabindex="-1" role="dialog" aria-labelledby="modal-9-label" aria-hidden="true">
+			<div class="modal-dialog modal-lg" role="document">
+			  <div class="modal-content">
+				<div class="modal-header">
+				  <h5 class="modal-title" id="modal-9-label">Face Lift Neck Lift</h5>
+				  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+					<span aria-hidden="true">&times;</span>
+				  </button>
+				</div>
+				<div class="modal-body">
+				  <img src="https://res.cloudinary.com/dudyrfpl0/image/upload/v1727003025/Before%20and%20after/Face%20lift%20neck%20lift/bwvpobgtouh0r9cljve5.jpg" alt="fFace Lift Neck Lift
+  " class="img-fluid">
+				</div>
+			  </div>
+			</div>
+		  </div>
+		<div class="modal fade" id="modal-10" tabindex="-1" role="dialog" aria-labelledby="modal-10-label" aria-hidden="true">
+			<div class="modal-dialog modal-lg" role="document">
+			  <div class="modal-content">
+				<div class="modal-header">
+				  <h5 class="modal-title" id="modal-10-label">Face Lift Neck Lift</h5>
+				  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+					<span aria-hidden="true">&times;</span>
+				  </button>
+				</div>
+				<div class="modal-body">
+				  <img src="https://res.cloudinary.com/dudyrfpl0/image/upload/v1727003024/Before%20and%20after/Face%20lift%20neck%20lift/v0ztteayv8xv9sxfklka.jpg" alt="fFace Lift Neck Lift
+  " class="img-fluid">
+				</div>
+			  </div>
+			</div>
+		  </div>
+		<div class="modal fade" id="modal-11" tabindex="-1" role="dialog" aria-labelledby="modal-11-label" aria-hidden="true">
+			<div class="modal-dialog modal-lg" role="document">
+			  <div class="modal-content">
+				<div class="modal-header">
+				  <h5 class="modal-title" id="modal-11-label">Face Lift Neck Lift</h5>
+				  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+					<span aria-hidden="true">&times;</span>
+				  </button>
+				</div>
+				<div class="modal-body">
+				  <img src="https://res.cloudinary.com/dudyrfpl0/image/upload/v1727003023/Before%20and%20after/Face%20lift%20neck%20lift/bz1wdxnctqzuio1xgsx5.jpg " alt="fFace Lift Neck Lift
+  " class="img-fluid">
+				</div>
+			  </div>
+			</div>
+		  </div>
+		<div class="modal fade" id="modal-12" tabindex="-1" role="dialog" aria-labelledby="modal-12-label" aria-hidden="true">
+			<div class="modal-dialog modal-lg" role="document">
+			  <div class="modal-content">
+				<div class="modal-header">
+				  <h5 class="modal-title" id="modal-12-label">Face Lift Neck Lift</h5>
+				  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+					<span aria-hidden="true">&times;</span>
+				  </button>
+				</div>
+				<div class="modal-body">
+				  <img src="https://res.cloudinary.com/dudyrfpl0/image/upload/v1727003027/Before%20and%20after/Face%20lift%20neck%20lift/uzx6fjq1fksvbzhceckw.jpg " alt="fFace Lift Neck Lift
+  " class="img-fluid">
+				</div>
+			  </div>
+			</div>
+		  </div>
+		<div class="modal fade" id="modal-13" tabindex="-1" role="dialog" aria-labelledby="modal-13-label" aria-hidden="true">
+			<div class="modal-dialog modal-lg" role="document">
+			  <div class="modal-content">
+				<div class="modal-header">
+				  <h5 class="modal-title" id="modal-13-label">Face Lift Neck Lift</h5>
+				  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+					<span aria-hidden="true">&times;</span>
+				  </button>
+				</div>
+				<div class="modal-body">
+				  <img src="https://res.cloudinary.com/dudyrfpl0/image/upload/v1727003024/Before%20and%20after/Face%20lift%20neck%20lift/eq5jpgltmdmno3bl68a1.jpg " alt="fFace Lift Neck Lift
+  " class="img-fluid">
+				</div>
+			  </div>
+			</div>
+		  </div>
+		<div class="modal fade" id="modal-14" tabindex="-1" role="dialog" aria-labelledby="modal-14-label" aria-hidden="true">
+			<div class="modal-dialog modal-lg" role="document">
+			  <div class="modal-content">
+				<div class="modal-header">
+				  <h5 class="modal-title" id="modal-14-label">Face Lift Neck Lift</h5>
+				  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+					<span aria-hidden="true">&times;</span>
+				  </button>
+				</div>
+				<div class="modal-body">
+				  <img src="https://res.cloudinary.com/dudyrfpl0/image/upload/v1727003042/Before%20and%20after/Face%20lift%20neck%20lift/ymgdhwn56j3a9wlgppaa.jpg" alt="fFace Lift Neck Lift
+  " class="img-fluid">
+				</div>
+			  </div>
+			</div>
+		  </div>
+	
+		  <div class="modal fade" id="modal-16" tabindex="-1" role="dialog" aria-labelledby="modal-16-label" aria-hidden="true">
+			<div class="modal-dialog modal-lg" role="document">
+				<div class="modal-content">
+					<div class="modal-header">
+						<h5 class="modal-title" id="modal-16-label">Face Lift Neck Lift</h5>
+						<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+							<span aria-hidden="true">&times;</span>
+						</button>
+					</div>
+					<div class="modal-body" style="overflow: hidden; max-height: 80vh;">
+						<video controls style="width: 100%; height: auto; max-height: 80vh;">
+							<source src="https://res.cloudinary.com/dudyrfpl0/video/upload/v1727003028/Before%20and%20after/Face%20lift%20neck%20lift/dxmz5wwxqv4owkpxqri6.mp4" type="video/mp4">
+							Your browser does not support the video tag.
+						</video>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		
+		<div class="modal fade" id="modal-15" tabindex="-1" role="dialog" aria-labelledby="modal-15-label" aria-hidden="true">
+			<div class="modal-dialog modal-lg" role="document">
+				<div class="modal-content">
+					<div class="modal-header">
+						<h5 class="modal-title" id="modal-15-label">Face Lift Neck Lift</h5>
+						<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+							<span aria-hidden="true">&times;</span>
+						</button>
+					</div>
+					<div class="modal-body" style="overflow: hidden; max-height: 80vh;">
+						<video controls style="width: 100%; height: auto; max-height: 80vh;">
+							<source src="https://res.cloudinary.com/dudyrfpl0/video/upload/v1727003794/Before%20and%20after/Face%20lift%20neck%20lift/inq7xeatjydot8okfioa.mp4" type="video/mp4">
+							Your browser does not support the video tag.
+						</video>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="modal fade" id="modal-17" tabindex="-1" role="dialog" aria-labelledby="modal-17-label" aria-hidden="true">
+			<div class="modal-dialog modal-lg" role="document">
+				<div class="modal-content">
+					<div class="modal-header">
+						<h5 class="modal-title" id="modal-17-label">Face Lift Neck Lift</h5>
+						<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+							<span aria-hidden="true">&times;</span>
+						</button>
+					</div>
+					<div class="modal-body" style="overflow: hidden; max-height: 80vh;">
+						<video controls style="width: 100%; height: auto; max-height: 80vh;">
+							<source src="https://res.cloudinary.com/dudyrfpl0/video/upload/v1727003036/Before%20and%20after/Face%20lift%20neck%20lift/apymqvbus88afb00mao4.mp4" type="video/mp4">
+							Your browser does not support the video tag.
+						</video>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="modal fade" id="modal-18" tabindex="-1" role="dialog" aria-labelledby="modal-18-label" aria-hidden="true">
+			<div class="modal-dialog modal-lg" role="document">
+				<div class="modal-content">
+					<div class="modal-header">
+						<h5 class="modal-title" id="modal-18-label">Face Lift Neck Lift</h5>
+						<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+							<span aria-hidden="true">&times;</span>
+						</button>
+					</div>
+					<div class="modal-body" style="overflow: hidden; max-height: 80vh;">
+						<video controls style="width: 100%; height: auto; max-height: 80vh;">
+							<source src="https://res.cloudinary.com/dudyrfpl0/video/upload/v1727003032/Before%20and%20after/Face%20lift%20neck%20lift/zr2dsgdas5dhcotzjgnj.mp4" type="video/mp4">
+							Your browser does not support the video tag.
+						</video>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="modal fade" id="modal-19" tabindex="-1" role="dialog" aria-labelledby="modal-19-label" aria-hidden="true">
+			<div class="modal-dialog modal-lg" role="document">
+				<div class="modal-content">
+					<div class="modal-header">
+						<h5 class="modal-title" id="modal-19-label">Face Lift Neck Lift</h5>
+						<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+							<span aria-hidden="true">&times;</span>
+						</button>
+					</div>
+					<div class="modal-body" style="overflow: hidden; max-height: 80vh;">
+						<video controls style="width: 100%; height: auto; max-height: 80vh;">
+							<source src=" https://res.cloudinary.com/dudyrfpl0/video/upload/v1727003039/Before%20and%20after/Face%20lift%20neck%20lift/e3pdi1ran802grsi9eg9.mp4" type="video/mp4">
+							Your browser does not support the video tag.
+						</video>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="modal fade" id="modal-20" tabindex="-1" role="dialog" aria-labelledby="modal-20-label" aria-hidden="true">
+			<div class="modal-dialog modal-lg" role="document">
+				<div class="modal-content">
+					<div class="modal-header">
+						<h5 class="modal-title" id="modal-20-label">Face Lift Neck Lift</h5>
+						<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+							<span aria-hidden="true">&times;</span>
+						</button>
+					</div>
+					<div class="modal-body" style="overflow: hidden; max-height: 80vh;">
+						<video controls style="width: 100%; height: auto; max-height: 80vh;">
+							<source src="https://res.cloudinary.com/dudyrfpl0/video/upload/v1727003044/Before%20and%20after/Face%20lift%20neck%20lift/pazptxf7t4q1umu2andc.mp4" type="video/mp4">
+							Your browser does not support the video tag.
+						</video>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="modal fade" id="modal-21" tabindex="-1" role="dialog" aria-labelledby="modal-20-label" aria-hidden="true">
+			<div class="modal-dialog modal-lg" role="document">
+				<div class="modal-content">
+					<div class="modal-header">
+						<h5 class="modal-title" id="modal-20-label">Face Lift Neck Lift</h5>
+						<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+							<span aria-hidden="true">&times;</span>
+						</button>
+					</div>
+					<div class="modal-body" style="overflow: hidden; max-height: 80vh;">
+						<video controls style="width: 100%; height: auto; max-height: 80vh;">
+							<source src=" https://res.cloudinary.com/dudyrfpl0/video/upload/v1727003041/Before%20and%20after/Face%20lift%20neck%20lift/fz8gubbee1cghv8x9eu1.mp4" type="video/mp4">
+							Your browser does not support the video tag.
+						</video>
+					</div>
+				</div>
+			</div>
+		</div>
+	  </div>
+
+
+
+
+
+	<!-- Footer -->
+
+	<footer class="footer">
+		<div class="footer_content">
+			<div class="container">
+				<div class="row">
+
+					<!-- Footer About -->
+					<div class="col-lg-3 footer_col">
+						<div class="footer_about">
+							<div class="footer_logo">
+								<a href="#">
+									<div>Dr<span>PRO</span></div>
+									<div>Plastic Surgery</div>
+								</a>
+							</div>
+							<div class="footer_about_text">
+								<p>Nulla facilisi. Nulla egestas vel lacus sed interdum. Sed mollis, orci eleme ntum eleifend tempor, nunc libero porttitor tellus.</p>
+							</div>
+						</div>
+					</div>
+
+					<!-- Footer Contact Info -->
+					<div class="col-lg-3 footer_col">
+						<div class="footer_contact">
+							<div class="footer_title">Contact Info</div>
+							<ul class="contact_list">
+								<li>+53 345 7953 32453</li>
+								<li>yourmail@gmail.com</li>
+								<li>contact@gmail.com</li>
+							</ul>
+						</div>
+					</div>
+
+					<!-- Footer Locations -->
+					<div class="col-lg-3 footer_col">
+						<div class="footer_location">
+							<div class="footer_title">Our Locations</div>
+							<ul class="locations_list">
+								<li>
+									<div class="location_title">Miami</div>
+									<div class="location_text">45 Creekside Av  FL 931</div>
+								</li>
+								<li>
+									<div class="location_title">Los Angeles</div>
+									<div class="location_text">1481 Creekside Lane Avila Beach, CA 931</div>
+								</li>
+							</ul>
+						</div>
+					</div>
+
+					<!-- Footer Opening Hours -->
+					<div class="col-lg-3 footer_col">
+						<div class="opening_hours">
+							<div class="footer_title">Opening Hours</div>
+							<ul class="opening_hours_list">
+								<li class="d-flex flex-row align-items-start justify-content-start">
+									<div>Monday:</div>
+									<div class="ml-auto">8:00am - 9:00pm</div>
+								</li>
+								<li class="d-flex flex-row align-items-start justify-content-start">
+									<div>Thuesday:</div>
+									<div class="ml-auto">8:00am - 9:00pm</div>
+								</li>
+								<li class="d-flex flex-row align-items-start justify-content-start">
+									<div>Wednesday:</div>
+									<div class="ml-auto">8:00am - 9:00pm</div>
+								</li>
+								<li class="d-flex flex-row align-items-start justify-content-start">
+									<div>Thursday:</div>
+									<div class="ml-auto">8:00am - 9:00pm</div>
+								</li>
+								<li class="d-flex flex-row align-items-start justify-content-start">
+									<div>Friday:</div>
+									<div class="ml-auto">8:00am - 7:00pm</div>
+								</li>
+							</ul>
+						</div>
+					</div>
+
+				</div>
+			</div>
+		</div>
+		<div class="footer_bar">
+			<div class="container">
+				<div class="row">
+					<div class="col">
+						<div class="footer_bar_content  d-flex flex-md-row flex-column align-items-md-center justify-content-start">
+							<div class="copyright"><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
+<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+</div>
+							<nav class="footer_nav ml-md-auto">
+								<ul class="d-flex flex-row align-items-center justify-content-start">
+									<li><a href="index.html">Home</a></li>
+									<li><a href="about.html">About us</a></li>
+									<li><a href="services.html">Services</a></li>
+									<!-- <li><a href="blog.html">News</a></li> -->
+									<li><a href="contact.html">Contact</a></li>
+								</ul>
+							</nav>
+						</div>
+					</div>
+				</div>
+			</div>			
+		</div>
+	</footer>
+</div>
+
+<script src="js/jquery-3.2.1.min.js"></script>
+<script src="styles/bootstrap-4.1.2/popper.js"></script>
+<script src="styles/bootstrap-4.1.2/bootstrap.min.js"></script>
+<script src="plugins/greensock/TweenMax.min.js"></script>
+<script src="plugins/greensock/TimelineMax.min.js"></script>
+<script src="plugins/scrollmagic/ScrollMagic.min.js"></script>
+<script src="plugins/greensock/animation.gsap.min.js"></script>
+<script src="plugins/greensock/ScrollToPlugin.min.js"></script>
+<script src="plugins/easing/easing.js"></script>
+<script src="plugins/parallax-js-master/parallax.min.js"></script>
+<script src="js/blogs.js"></script>
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+
+
+</body>
+</html>

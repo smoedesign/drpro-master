@@ -139,6 +139,9 @@
 	{
 		display: none;
 	}
+	.gallery {
+		grid-template-columns: repeat(2, 1fr);
+	  }
 	.hamburger
 	{
 		display: block;
@@ -187,6 +190,9 @@
 
 @media only screen and (max-width: 767px)
 {
+	.gallery {
+		grid-template-columns: repeat(1, 1fr);
+	  }
 	.home
 	{
 		height: 444px;
