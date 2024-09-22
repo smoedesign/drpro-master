@@ -321,7 +321,19 @@ gap:1rem;
 	color: #FFFFFF;
 	font-family: 'Poppins', sans-serif;
 	font-weight: 600;
+	width: 200px;
+	padding: 5px;
+	background: #b68623;
+	border: solid 2px transparent;
+	letter-spacing: 2px;
+
 }
+.gallery_btn:hover{
+background-color: #112f2a;
+border: solid 2px transparent;
+
+}
+
   .gallery-item {
 	width: 350px;
 	height: 360px;
@@ -334,13 +346,7 @@ gap:1rem;
 	border-radius: 10px 10px 0 0;
   }
   
-  .gallery-item video {
-	width: 100%;
-	height: 90%;
-	object-fit: cover;
-	border-radius: 10px 10px 0 0;
-  }
-  
+
   .gallery-item p {
 	font-size: 16px;
 	margin-bottom: 10px;
@@ -350,15 +356,8 @@ gap:1rem;
 
 
   
-  /* Filter Styles */
-  .filter-btn {
-	margin-right: 10px;
-  }
-  
-  .filter-btn.active {
-	background-color: #337ab7;
-	color: #fff;
-  }
+
+
   
   /* Modal Styles */
   .modal-body {
