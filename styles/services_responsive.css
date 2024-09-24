@@ -164,6 +164,9 @@
 	{
 		padding-top: 0;
 	}
+	.service_image_container{
+
+	}
 }
 
 /************
@@ -225,6 +228,19 @@
 	{
 		margin-top: 15px;
 	}
+	.service_image_container{
+		height: 500px;
+		margin-top: -20px;
+	justify-content: center;
+	align-items: center;
+	display: flex;
+	max-width: 1200px;
+	}
+	.ba_text{
+		margin-top: 0;
+		margin-left: 20px;
+		margin-right: 20px;
+	}
 }
 
 /************
@@ -233,6 +249,19 @@
 
 @media only screen and (max-width: 575px)
 {
+	.service_image_container{
+		height: 500px;
+		margin-top: -60px;
+	justify-content: center;
+	align-items: center;
+	display: flex;
+	max-width: 1200px;
+	}
+	.ba_text{
+		margin-top: -50px;
+		margin-left: 20px;
+		margin-right: 20px;
+	}
 	p
 	{
 		font-size: 13px;
