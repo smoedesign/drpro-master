@@ -596,9 +596,8 @@ section
 }
 .menu_social
 {
-	position: absolute;
-	bottom: 30px;
-	left: 30px;
+	margin-top: 50px;
+
 }
 .menu_social ul li:hover
 {
@@ -614,7 +613,7 @@ section
 }
 .menu_extra > div:not(:last-child)
 {
-	margin-bottom: 5px;
+	margin-bottom: 10px;
 }
 .menu_link,
 .menu_link a
@@ -622,6 +621,13 @@ section
 	font-size: 13px;
 	font-weight: 500;
 	color: rgba(255,255,255,0.75);
+	background-color: #b68623;
+padding: 7px;
+	width: 200px;
+	
+	text-align: center;
+	border-radius: 20px;
+	
 }
 .menu_link a:hover
 {

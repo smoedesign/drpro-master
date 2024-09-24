@@ -46,7 +46,6 @@ $(document).ready(function()
 	initMenu();
 	initMilestones();
 	initTestSlider();
-
 	/* 
 
 	2. Set Header
@@ -64,6 +63,13 @@ $(document).ready(function()
 			header.removeClass('scrolled');
 		}
 	}
+
+
+	/* 
+
+	2. Set Header
+
+	*/
 
 	/* 
 

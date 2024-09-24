@@ -1,31 +1,7 @@
 @charset "utf-8";
-/* CSS Document */
-
-/******************************
-
-[Table of Contents]
-
-1. Fonts
-2. Body and some general stuff
-3. Header
-4. Menu
-5. Home
-6. Blog
-7. Newsletter
-8. Footer
 
 
-******************************/
 
-/***********
-1. Fonts
-***********/
-
-@import url('https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700,800,900');
-
-/*********************************
-2. Body and some general stuff
-*********************************/
 
 *
 {
@@ -374,7 +350,7 @@ border: solid 2px transparent;
 {
 	background: #b68623;
 	border: solid 2px transparent;
-	letter-spacing: 2px;
+	letter-spacing: 1px;
 
 }
 .button_1 a
@@ -448,14 +424,14 @@ border: solid 2px transparent;
 	height: 75px;
 	box-shadow: 0px 5px 15px rgba(87,204,195,0.15);
 }
-.logo a > div:first-child
+.logo a 
 {
 	font-size: 30px;
 	font-weight: 700;
 	line-height: 0.75;
 	color: #353535;
 }
-.logo a > div:first-child span
+.logo a > div > span
 {
 	color:  #b68623;
 	margin-left: 7px;
@@ -690,9 +666,8 @@ text-align: center;
 }
 .menu_social
 {
-	position: absolute;
-	bottom: 30px;
-	left: 30px;
+	margin-top: 50px;
+
 }
 .menu_social ul li:hover
 {
@@ -708,7 +683,7 @@ text-align: center;
 }
 .menu_extra > div:not(:last-child)
 {
-	margin-bottom: 5px;
+	margin-bottom: 10px;
 }
 .menu_link,
 .menu_link a
@@ -716,6 +691,13 @@ text-align: center;
 	font-size: 13px;
 	font-weight: 500;
 	color: rgba(255,255,255,0.75);
+	background-color: #b68623;
+padding: 7px;
+	width: 200px;
+	
+	text-align: center;
+	border-radius: 20px;
+	
 }
 .menu_link a:hover
 {
@@ -986,39 +968,33 @@ text-align: center;
 	display: block;
 	position: relative;
 	background: #26292d;
+	
 }
 .footer_content
 {
 	padding-top: 94px;
 	padding-bottom: 51px;
+	max-width: 1200px;
+	margin-right: auto;
+	margin-left: auto;
 }
 .footer_about
 {
 	padding-top: 19px;
 }
-.footer_logo a > div:first-child
+
+
+	.footer_logo
 {
-	font-size: 30px;
-	font-weight: 700;
-	line-height: 0.75;
-	color: #FFFFFF;
+	width: 200px;	
+	height: 200px;
+	margin-top: -100px;
 }
-.footer_logo a > div:first-child span
-{
-	color:  #112f2a;
-	margin-left: 7px;
-}
-.footer_logo a > div:last-child
-{
-	font-size: 12px;
-	color: #969696;
-	font-weight: 500;
-	line-height: 0.75;
-	margin-top: 6px;
-}
+
+
 .footer_about_text
 {
-	margin-top: 42px;
+	margin-top:-10px;
 }
 .footer_about_text p
 {
@@ -1034,13 +1010,19 @@ text-align: center;
 .footer_contact
 {
 	padding-top: 40px;
+justify-content: center;
+align-items: center;
+display: flex;
+flex-direction: column;
 }
 .contact_list
 {
 	margin-top: 44px;
+
 }
 .contact_list li
 {
+
 	font-size: 15px;
 	font-weight: 500;
 	color: #878787;
@@ -1089,6 +1071,8 @@ text-align: center;
 .opening_hours_list
 {
 	margin-top: 44px;
+
+
 }
 .opening_hours_list li
 {
@@ -1102,10 +1086,13 @@ text-align: center;
 {
 	width: 100%;
 	background: #181a1d;
-}
+	
 .footer_bar_content
 {
 	height: 49px;
+	width: 100%;
+
+}
 }
 .copyright
 {

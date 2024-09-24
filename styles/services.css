@@ -586,9 +586,8 @@ section
 }
 .menu_social
 {
-	position: absolute;
-	bottom: 30px;
-	left: 30px;
+	margin-top: 50px;
+
 }
 .menu_social ul li:hover
 {
@@ -604,7 +603,7 @@ section
 }
 .menu_extra > div:not(:last-child)
 {
-	margin-bottom: 5px;
+	margin-bottom: 10px;
 }
 .menu_link,
 .menu_link a
@@ -612,6 +611,13 @@ section
 	font-size: 13px;
 	font-weight: 500;
 	color: rgba(255,255,255,0.75);
+	background-color: #b68623;
+padding: 7px;
+	width: 200px;
+	
+	text-align: center;
+	border-radius: 20px;
+	
 }
 .menu_link a:hover
 {
@@ -957,6 +963,7 @@ section
 	display: block;
 	position: relative;
 	background: #26292d;
+	
 }
 .footer_content
 {
@@ -1060,6 +1067,10 @@ section
 {
 	width: 100%;
 	background: #181a1d;
+
+}
+.copyright> a {
+	color: rgba(0,0,0,.01) 0 0 1px;
 }
 .footer_bar_content
 {
@@ -1069,7 +1080,6 @@ section
 {
 	font-size: 12px;
 	font-weight: 500;
-	color: #646464;
 }
 .footer_nav ul li:not(:last-child)
 {
@@ -1079,7 +1089,6 @@ section
 {
 	font-size: 12px;
 	font-weight: 500;
-	color: #818181;
 }
 .footer_nav ul li a:hover
 {
