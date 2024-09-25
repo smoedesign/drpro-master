@@ -236,11 +236,7 @@
 	display: flex;
 	max-width: 1200px;
 	}
-	.ba_text{
-		margin-top: 0;
-		margin-left: 20px;
-		margin-right: 20px;
-	}
+
 }
 
 /************
@@ -257,11 +253,17 @@
 	display: flex;
 	max-width: 1200px;
 	}
-	.ba_text{
-		margin-top: -50px;
-		margin-left: 20px;
-		margin-right: 20px;
-	}
+	.mover:before {
+
+		transform:translateX(-50%);
+	
+		height: 50px;
+		width: 50px !important;
+		border-radius: 50%;
+
+	left: 50%;
+		box-shadow: none !important;
+	  }
 	p
 	{
 		font-size: 13px;

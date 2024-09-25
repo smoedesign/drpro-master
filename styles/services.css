@@ -589,19 +589,8 @@ section
 	margin-top: 50px;
 
 }
-.service_image_container{
-	height: 500px;
-	margin-top: 50px;
-justify-content: center;
-align-items: center;
-display: flex;
-max-width: 1200px;
-}
-.service_image_container img{
-width: 70%;
-	height: 100%;
-	object-fit: contain;
-}
+
+
 .menu_social ul li:hover
 {
 	background: #404040;
@@ -735,7 +724,66 @@ padding: 7px;
 /*********************************
 7. Before and After
 *********************************/
+.image-spliter,
+img,
+.mover {
+  overflow: hidden;
+  -webkit-touch-callout: none;
+    -webkit-user-select: none;
+     -khtml-user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none;
+            user-select: none;
+}
 
+.image-spliter {
+  position: relative;
+}
+
+.img-left {
+  position: absolute;
+  top: 0;
+  left:0;
+}
+
+.mover {
+  position:absolute;
+  width: 200px;
+  height: 100%;
+  top: 0;
+  left:0;
+  z-index: 10;
+}
+.mover:before,
+.mover:after {
+  position:absolute;
+  left:50%;
+  content: "";
+
+  cursor: -webkit-grab;
+  cursor: grab;
+
+}
+
+.mover:before {
+  top: 50%;
+  transform:translateX(-50%);
+  width: 60px;
+  height: 60px;
+  background:  #112f2a url("../images/arrows.png") no-repeat center center ;
+border-radius: 50%;
+}
+.mover:hover::before{
+	background-color: #b68623;
+
+}
+.mover:after {
+  top: 50%;
+  transform:translate(-50%, -50%);
+  width: 5px;
+  height: 33%;
+  border-radius: 5px;
+}
 .before_and_after
 {
 	padding-top: 88px;
