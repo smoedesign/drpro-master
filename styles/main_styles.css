@@ -255,6 +255,19 @@ section
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center center;
+	
+	
+}
+
+.image_slider_1{
+	background-image: linear-gradient(90deg, rgba(255,253,253,1) 40%, rgba(255,255,255,0) 62%), url("https://res.cloudinary.com/dudyrfpl0/image/upload/v1727279359/C0995T01_hsqvv1.jpg");
+}
+.image_slider_3{
+	background-image: linear-gradient(90deg, rgba(255,253,253,1) 40%, rgba(255,255,255,0) 62%), url("https://res.cloudinary.com/dudyrfpl0/image/upload/v1727279360/C0999T01_a9vcpu.jpg")
+}
+.image_slider_2{
+	background-image:  url("https://res.cloudinary.com/dudyrfpl0/image/upload/v1726948797/home_slider_gietma.jpg")
+	
 }
 .nopadding
 {
@@ -880,11 +893,15 @@ padding: 7px;
 {
 	width: 100%;
 	background: #eff3f7;
+
 }
 .why_content
 {
 	padding-top: 102px;
 	padding-bottom: 90px;
+margin-left: 60px;
+width: 100%;
+
 }
 .why_text
 {
@@ -935,6 +952,7 @@ padding: 7px;
 .why_list_content
 {
 	padding-left: 37px;
+	
 }
 .why_list_title
 {
@@ -953,14 +971,29 @@ padding: 7px;
 {
 	width: 100%;
 	height: 100%;
+
+	overflow: hidden;
+
+
 }
 .why_image
 {
-	position: absolute;
-	bottom: 0;
-	right: 0;
+	width: 100%;
+
+		height: 100%;
+
+	display: flex;	
+	flex-direction: column;
+
+	 justify-content: center;
 }
 
+.why_image img
+{
+	max-width: 100%;
+	object-fit: cover;
+
+}
 /*********************************
 8. CTA
 *********************************/

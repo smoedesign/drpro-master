@@ -233,6 +233,9 @@
 
 @media only screen and (max-width: 575px)
 {
+	.button_1{
+		letter-spacing: 0;
+	}
 	p
 	{
 		font-size: 13px;
