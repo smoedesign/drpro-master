@@ -775,12 +775,11 @@ width: 100%;
 }
 .test_slider_dots
 {
-	position: absolute;
-	bottom: 150px;
-	left:50%;
+	display: flex;
 	z-index: 1;
 	align-items: center;
 	justify-content: center;
+	bottom: 70px;
 }
 .test_slider_custom_dot
 {

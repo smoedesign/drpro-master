@@ -21,7 +21,7 @@ document.getElementById('intro_form').addEventListener('submit', function (event
 
 
     // Send the email
-    emailjs.send('service_ukaha4q', 'template_242dyxo', templateParams).then(
+    emailjs.send('service_4bozjrd', 'template_w6k01as', templateParams).then(
         (response) => {
 			
 			document.getElementById('name').value="";

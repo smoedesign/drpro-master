@@ -104,10 +104,7 @@
 	{
 		height: 525px;
 	}
-	.test_slider_dots
-	{
-		left: 	 35%;;
-	}
+	
 }
 
 /************
@@ -139,10 +136,7 @@
 	{
 		display: none;
 	}
-	.test_slider_dots
-	{
-		left: 35%;
-	}
+	
 	.hamburger
 	{
 		display: block;
@@ -248,10 +242,7 @@
 		padding-top: 30px;
 		padding-bottom: 30px;
 	}
-	.test_slider_dots
-	{
-		left: 35%;
-	}
+	
 	.footer_nav
 	{
 		margin-top: 15px;
@@ -321,7 +312,7 @@
 	{
 		font-size: 36px;
 	}
-	.test_slider_dots .owl-theme .owl-dots
+	.test_slider_dots .owl-theme .test_slider_custom_dots
 	{
 		display: none !important;
 	}

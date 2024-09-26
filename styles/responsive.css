@@ -296,10 +296,13 @@ margin-bottom: 90px;
 @media only screen and (max-width: 575px)
 {
 	.image_slider_3{
-		background-image: linear-gradient(180deg, rgba(255,253,253,1) 50%, rgba(255,255,255,0) 62%), url("../images/lg.JPG");
+		background-image: linear-gradient(180deg, rgba(255,253,253,1) 50%, rgba(255,255,255,0) 62%), url("https://res.cloudinary.com/dudyrfpl0/image/upload/v1727350750/Untitled-3_uj58cb.jpg");
 	}
 	.image_slider_1{
 		background-image: linear-gradient(180deg, rgba(255,253,253,1) 50%, rgba(255,255,255,0) 62%), url("https://res.cloudinary.com/dudyrfpl0/image/upload/v1727301966/C1010T01_jzrozb.jpg")
+	}
+	.image_slider_2{
+		background-image: linear-gradient(180deg, rgba(255,253,253,1) 50%, rgba(255,255,255,0) 62%), url("https://res.cloudinary.com/dudyrfpl0/image/upload/v1727350760/Untitled-2_bim6nz.jpg")
 	}
 
 	.home_container

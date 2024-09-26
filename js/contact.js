@@ -21,7 +21,7 @@ document.getElementById('contact-form').addEventListener('submit', function (eve
 
 
     // Send the email
-    emailjs.send('service_ukaha4q', 'template_r29wc5f', templateParams).then(
+    emailjs.send('service_4bozjrd', 'template_mciykpg', templateParams).then(
         (response) => {
 			
 			document.getElementById('name').value="";
